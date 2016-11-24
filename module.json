@@ -6,7 +6,7 @@
         "SquirrelCMS",
         "Core"
     ],
-    "version": "1.0",
+    "version": "1.0.1",
     "active": 1,
     "order": 0
 }

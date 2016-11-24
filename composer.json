@@ -1,7 +1,7 @@
 {
     "name": "squirrelcms/core",
     "description": "Core module for SquirrelCMS",
-    "type": "squirrelcms-module",
+    "type": "asgard-module",
     "keywords": [
         "squirrelcms",
         "core"
@@ -16,12 +16,6 @@
     "require": {
         "php": ">=5.6"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/nWidart/modules"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Modules\\Core\\": ""
