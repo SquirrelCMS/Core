@@ -1,7 +1,7 @@
 {
     "name": "squirrelcms/core",
     "description": "Core module for SquirrelCMS",
-    "type": "asgard-module",
+    "type": "squirrel-module",
     "keywords": [
         "squirrelcms",
         "core"
@@ -19,6 +19,11 @@
     "autoload": {
         "psr-4": {
             "Modules\\Core\\": ""
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "Modules/Core/": ["squirrelcms/core"]
         }
     },
     "minimum-stability": "dev",
