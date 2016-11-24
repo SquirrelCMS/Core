@@ -1,0 +1,27 @@
+{
+    "name": "squirrelcms/core",
+    "description": "Core module for SquirrelCMS",
+    "type": "squirrelcms-module",
+    "keywords": [
+        "squirrelcms",
+        "core"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MrUBKey",
+            "email": "mr.ubkey@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "composer/installers": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Core\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Core",
+    "alias": "core",
+    "description": "Core module for SquirrelCMS",
+    "keywords": [
+        "SquirrelCMS",
+        "Core"
+    ],
+    "version": "1.0",
+    "active": 1,
+    "order": 0
+}
