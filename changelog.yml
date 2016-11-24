@@ -1,6 +1,6 @@
 url: https://github.com/squirrelcms/core
 versions:
-    "1.0.1":
+    "1.0.2":
         changed:
             - Setup new path for module
     "1.0.0":
