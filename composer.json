@@ -4,6 +4,7 @@
     "type": "squirrel-module",
     "keywords": [
         "squirrelcms",
+        "squirrelmodule",
         "core"
     ],
     "license": "MIT",
