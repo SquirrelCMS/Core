@@ -1,11 +1,14 @@
 {
     "name": "squirrelcms/core",
     "description": "Core module for SquirrelCMS",
+    "version": "1.0.5",
     "type": "squirrel-module",
     "keywords": [
         "squirrelcms",
         "squirrelmodule",
-        "core"
+        "core",
+        "laravel",
+        "laravel5"
     ],
     "license": "MIT",
     "authors": [
@@ -16,6 +19,7 @@
     ],
     "require": {
         "php": ">=5.6",
+        "nwidart/laravel-modules": "^1.13",
         "mnsami/composer-custom-directory-installer": "1.1.*"
     },
     "autoload": {
@@ -25,7 +29,7 @@
     },
     "extra": {
         "installer-paths": {
-            "Modules/{$name}/": ["squirrelcms/core"]
+            "Modules/{$name}": ["squirrelcms/core"]
         }
     },
     "minimum-stability": "dev",
