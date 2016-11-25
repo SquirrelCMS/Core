@@ -1,7 +1,7 @@
 {
     "name": "squirrelcms/core",
     "description": "Core module for SquirrelCMS",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "type": "squirrel-module",
     "keywords": [
         "squirrelcms",
@@ -29,7 +29,7 @@
     },
     "extra": {
         "installer-paths": {
-            "Modules/{$name}": ["squirrelcms/core"]
+            "./Modules/{$name}": ["squirrelcms/core"]
         }
     },
     "minimum-stability": "dev",
